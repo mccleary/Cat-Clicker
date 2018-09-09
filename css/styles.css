@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+img {
+  border-radius: 3%;
+}
+
+.responsive {
+  width: 80%;
+  height: auto;
+}
