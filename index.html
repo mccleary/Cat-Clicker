@@ -2,8 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="css/styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
     <title>Cat Clicker</title>
 
   </head>
@@ -12,15 +18,13 @@
     <h1>Cat Clicker</h1>
 
     <div id="cat_info">
-      <p id="cat_clicks"></p>
+      <p>Click cat photo:<span id="cat_count">0</span></p>
+
       <img id="cat_img" src="img/kitten.jpg" alt="kitten" class="responsive">
     </div>
 
 
-
-
-    <script src="js/jQuery.js"></script>
-    <script type="app.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
